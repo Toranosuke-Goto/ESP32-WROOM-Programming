@@ -1,0 +1,49 @@
+#include <ESP32Servp.h>
+
+const int SERVO_PIN = 25;
+
+void input() {
+
+}
+
+void output() {
+
+}
+
+void loop() {
+    mservo.writeMicroseconds(360)
+    delay()
+
+    mservo.writeMicroseconds(330)
+    delay()
+
+    mservo.eriteMicroseconds(300)
+    delay()
+
+    mservo.eriteMicroseconds(270)
+    delay()
+
+    mservo.eriteMicroseconds(240)
+    delay()
+
+    mservo.eriteMicroseconds(210)
+    delay()
+
+    mservo.eriteMicroseconds(180)
+    delay()
+
+    mservo.eriteMicroseconds(150)
+    delay()
+
+    mservo.eriteMicroseconds(120)
+    delay()
+
+    mservo.eriteMicroseconds(90)
+    delay()
+
+    mservo.eriteMicrosecondes(60)
+    delay()
+
+    mservo.eriteMicrosecondes(30)
+    delay()
+}
